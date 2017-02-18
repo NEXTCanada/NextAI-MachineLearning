@@ -1,0 +1,13 @@
+name: nextai
+channels:
+  - conda-forge
+dependencies:
+  - python=2.7
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - nbstripout
+  - seaborn
+  - tensorflow=1.0.0
