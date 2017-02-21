@@ -11,3 +11,6 @@ dependencies:
   - nbstripout
   - seaborn
   - tensorflow=1.0.0
+  - scikit-learn
+  - pip:
+    - scikit-optimize
