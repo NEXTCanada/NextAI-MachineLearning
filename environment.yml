@@ -2,7 +2,7 @@ name: nextai
 channels:
   - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.6
   - numpy
   - scipy
   - pandas
@@ -10,7 +10,7 @@ dependencies:
   - jupyter
   - nbstripout
   - seaborn
-  - tensorflow=1.0.0
   - scikit-learn
-  - pip:
-    - scikit-optimize
+  - scikit-optimize
+  - tqdm
+  - future
