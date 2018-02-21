@@ -1,6 +1,7 @@
 name: nextai
 channels:
   - conda-forge
+  - pytorch
 dependencies:
   - python=3.6
   - numpy
@@ -14,3 +15,5 @@ dependencies:
   - scikit-optimize
   - tqdm
   - future
+  - pytorch
+  - torchvision
