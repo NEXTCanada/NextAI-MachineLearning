@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/NEXTCanada/NextAI-MachineLearning/master)
 
-Materials for the NextAI Technical Stream Course on Machine Learning
+Materials for the NextAI Technical Stream Course on Machine Learning.
 
 Notebooks 1 - 4 cover pre-requisite material and are intended to be reviewed
 before immersion week.
