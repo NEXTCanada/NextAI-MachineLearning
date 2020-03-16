@@ -1,2 +1,7 @@
 mytest.py
 .ipynb_checkpoints/
+data/
+hymenoptera_data.zip
+hymenoptera_data/
+out/
+out_vae/
