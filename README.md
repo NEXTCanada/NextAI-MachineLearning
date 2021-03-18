@@ -64,7 +64,7 @@ Though it is not necessary for this course to install Python on your personal co
 
 If you choose to download the notebooks and run them on your computer instead of running them in Collaboratory, you can use the environment file provided to simplify setup. The recommended setup procedure is as follows:
 
-1. Download and install [Anaconda](https://www.anaconda.com/distribution/) (Python 3.7 version)
+1. Download and install [Anaconda](https://www.anaconda.com/distribution/) (Python 3.8 version)
 2. Read about
    [Managing environments](http://conda.pydata.org/docs/using/envs.html)
 3. Examine the YAML environment file `environment.yml` which contains
