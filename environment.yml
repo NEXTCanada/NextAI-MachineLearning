@@ -3,18 +3,17 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.9
+  - python=3.10
   - numpy
   - scipy
   - pandas
   - matplotlib
-  - jupyter
+  - jupyterlab
+  - jupyterlab-lsp
+  - python-lsp-server
   - nbstripout
-  - seaborn
+  - nbdime
   - scikit-learn
   - scikit-optimize
   - tqdm
-  - future
-  - pytorch
-  - torchvision
   - autograd
