@@ -58,27 +58,27 @@ To run a notebook in Collaboratory, all you need to do is click on one of the li
 
 ## Local install (optional)
 
-Though it is not necessary for this course to install Python on your personal computer, if you wish to do so, I recommend using an off-the-shelf distribution that comes with all the packages described above. Continuum Analytics' [Anaconda](https://docs.anaconda.com/anaconda/install/) has everything we need (and more) for this course. It's cross-platform and completely free for basic use.
+Though it is not necessary for this course to install Python on your personal computer, if you wish to do so, I recommend using an open-source distribution that comes with all the packages described above. [Miniforge](https://github.com/conda-forge/miniforge) is a community-driven minimal installer for conda environments. It provides the conda environment and package manager without including the large number of packages that come with alternatives like Anaconda. This makes it a lighter and more flexible option for many users. Miniforge is cross-platform and completely free for basic use.
 
-### Anaconda environment setup
+### Miniforge environment setup
 
 If you choose to download the notebooks and run them on your computer instead of running them in Collaboratory, you can use the environment file provided to simplify setup. The recommended setup procedure is as follows:
 
-1. Download and install [Anaconda](https://www.anaconda.com/distribution/) (Python 3.9 version)
-2. Read about
-   [Managing environments](http://conda.pydata.org/docs/using/envs.html)
+1. Download and install [Miniforge](https://github.com/conda-forge/miniforge#download). Ensure you select the correct installer for your operating system.
+2. Familiarize yourself with
+   [Managing environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) using conda.
 3. Examine the YAML environment file `environment.yml` which contains
-   dependencies for the course (and examine it in a text editor so you see
-   what's going on)
+   dependencies for the course (examine it in a text editor so you understand
+   what's included)
 4. Create a new environment based on the YAML file:
    ```
     conda env create -f environment.yml
     ```
 5. Activate your new Python environment:
    ```
-    source activate nextai
+    conda activate nextai
     ```
-6. Start jupyter from this directory:
+6. Start JupyterLab from this directory:
    ```
-   jupyter notebook
+   jupyter lab
    ```
